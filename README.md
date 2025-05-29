@@ -41,7 +41,7 @@ Run with:
 python main.py
 ```
 
-Make sure the `dataset.csv` file is properly placed and that `config.py` contains your styling settings.
+Make sure the `IEA-EV-dataEV salesHistoricalCars.csv` file is properly placed and that `config.py` contains your styling settings.
 
 ---
 
