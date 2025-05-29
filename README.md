@@ -1,4 +1,5 @@
-# Main README
+# Electric Vehicle Sales & Stock Visualizer 🚗📊
+
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![CLI App](https://img.shields.io/badge/CLI%20App-Interactive-lightgrey)
