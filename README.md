@@ -13,7 +13,6 @@ This project is a command-line Python application designed to visualize electric
 * Stacked bar charts
 * Scatter plots
 
-The user interacts with the program via a menu system.
 
 ## File: `main.py`
 

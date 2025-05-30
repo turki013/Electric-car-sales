@@ -86,7 +86,7 @@ def stacked_bar(df):
     
 def scatter(df):
     china_sales = df [
-        (df["region"] == "china")&
+        (df["region"] == "China")&
         (df["parameter"].isin(["EV sales" ,"EV stock"]))&
         (df["unit"] == "Vehicles") 
     ]
@@ -112,6 +112,10 @@ def scatter(df):
     
     plt.scatter([1,2,3,4],[china_ava , usa_ava , canada_ava , europe_ava])
     plt.xticks([1,2,3,4], ["China" , "USA" , "Canada" , "Europe"])
+    plt.title(cfg.title , fontsize=cfg.main_font_size , fontweight=cfg.font_weight)
+    plt.xlabel("region" , fontsize=cfg.font_size ,fontweight=cfg.font_weight )
+    plt.ylabel("Value" ,fontsize=cfg.font_size ,fontweight=cfg.font_weight )
+    plt.tight_layout()
     save_img(filename="bar.png")
     plt.show()
  
